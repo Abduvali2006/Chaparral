@@ -6,24 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/font icons/fontawesome-free-6.3.0-web/fontawesome-free-6.3.0-web/css/all.css">
     <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/cores.css">
     <title>Chaparral</title>
   </head>
   <body>
     <!-- navbar -->
-    <section class="navbar-container">
-      <div class="navbar-content">
-        <div class="navbar-img">
-          <img src="/img/Group 123 1.svg" alt="logo" />
+    <header class="navbar-container">
+      <div class="navbar-content container d-flex justify-between items-center">
+        <div class="navbar-img cursor-pointer">
+          <img src="/img/chaparral.svg" alt="logo" />
         </div>
-        <ul class="navbar-ul">
-          <li><a href="#" style="color: #5c5d4d; font-weight: 600">Home</a></li>
-          <li><a href="#">Our Approach</a></li>
+        <ul class="navbar-ul d-flex f-wrap items-center text-18 d-none">
+          <li><a class="text-18" href="#" style="color: #5c5d4d; font-weight: 600">Home</a></li>
+          <li><a class="text-18" href="#">Our Approach</a></li>
           <li><a href="#">Find a Doctor</a></li>
           <li><a href="#">Programs</a></li>
           <li><a href="#">Careers</a></li>
         </ul>
-        <a href="#" class="navbar-menu">
-          <button>Find a doctor</button>
+        <a href="#" class="navbar-menu f-row">
+          <button class="nav-button cursor-pointer text-16">Find a doctor</button>
           <svg
             width="20"
             height="16"
@@ -37,16 +38,20 @@
           </svg>
         </a>
       </div>
-    </section>
+    </header>
     <!-- /navbar -->
 
     <!-- header  -->
-    <section class="header-container">
-      <div class="header-content-1">
-          <h1>All of your care in one place</h1>
-          <p>Our doctors focus on keeping you healthy, not just treating you when you’re sick. We call that moving Forward.</p>
-          <button>
-          <a href="#">Find a doctor</a> 
+    <section class="header-container d-flex items-center">
+      <div class="header-content-1 d-flex f-column">
+          <h1 class="text-60 font-frances font-bold">
+            All of your care in one place
+          </h1>
+          <p class="font-inter text-24 ">
+            Our doctors focus on keeping you healthy, not just treating you when you’re sick.  We call that moving Forward.
+          </p>
+          <button class="button text-18">
+            Find a doctor 
           </button>
       </div>
       <div class="header-content-2">
@@ -58,76 +63,80 @@
     <!-- section-title  -->
     <section class="section-title">
       <!-- box-1_2 -->
-      <div class="box-1">
+      <div class="box-1 d-flex justify-between">
         <div class="box-1__logo">
           <img src="/img/Frame 7.png" alt="logo">
         </div>
-        <div class="box-1__content">
-          <h2>
+        <div class="box-1__content d-flex f-column">
+          <h2 class="text-44 font-frances font-samibold">
             Managing your long term health together
           </h2>
-          <div class="box-1-items">
-            <span class="span-1">
+          <div class="box-1-items d-flex f-column">
+            <span class="span-1 d-flex items-center text-24">
               <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6371 21.6372C16.5119 21.6372 21.2742 16.8748 21.2742 10.9999H18.9104C18.9104 15.5692 15.2063 19.2734 10.6371 19.2734C6.06789 19.2734 2.3638 15.5692 2.3638 10.9999C2.3638 6.43057 6.06789 2.7264 10.6371 2.7264C11.9511 2.7264 13.1937 3.03277 14.2971 3.57797L15.8736 1.73867C14.3277 0.86266 12.5408 0.362549 10.6371 0.362549C4.7624 0.362549 0 5.12505 0 10.9999C0 16.8748 4.7624 21.6372 10.6371 21.6372ZM18.6069 7.06171C19.0436 6.57651 19.0043 5.82919 18.5191 5.39252C18.0339 4.95586 17.2866 4.99519 16.8499 5.48038L10.2401 12.8248L7.92976 10.4995C7.4697 10.0364 6.72137 10.034 6.25831 10.494C5.79525 10.9541 5.79283 11.7025 6.25288 12.1655L9.44407 15.3776C9.67307 15.608 9.98685 15.7341 10.3117 15.7261C10.6365 15.7181 10.9437 15.5767 11.161 15.3352L18.6069 7.06171Z" fill="#84AE52"/>
               </svg>Annual Physical  
             </span>
-            <span class="span-1">
+            <span class="span-1 d-flex items-center text-24">
               <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6371 21.6372C16.5119 21.6372 21.2742 16.8748 21.2742 10.9999H18.9104C18.9104 15.5692 15.2063 19.2734 10.6371 19.2734C6.06789 19.2734 2.3638 15.5692 2.3638 10.9999C2.3638 6.43057 6.06789 2.7264 10.6371 2.7264C11.9511 2.7264 13.1937 3.03277 14.2971 3.57797L15.8736 1.73867C14.3277 0.86266 12.5408 0.362549 10.6371 0.362549C4.7624 0.362549 0 5.12505 0 10.9999C0 16.8748 4.7624 21.6372 10.6371 21.6372ZM18.6069 7.06171C19.0436 6.57651 19.0043 5.82919 18.5191 5.39252C18.0339 4.95586 17.2866 4.99519 16.8499 5.48038L10.2401 12.8248L7.92976 10.4995C7.4697 10.0364 6.72137 10.034 6.25831 10.494C5.79525 10.9541 5.79283 11.7025 6.25288 12.1655L9.44407 15.3776C9.67307 15.608 9.98685 15.7341 10.3117 15.7261C10.6365 15.7181 10.9437 15.5767 11.161 15.3352L18.6069 7.06171Z" fill="#84AE52"/>
-              </svg>Sick Care  
-            </span><span class="span-1">
+              </svg>Annual Physical  
+            </span>
+            <span class="span-1 d-flex items-center text-24">
               <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6371 21.6372C16.5119 21.6372 21.2742 16.8748 21.2742 10.9999H18.9104C18.9104 15.5692 15.2063 19.2734 10.6371 19.2734C6.06789 19.2734 2.3638 15.5692 2.3638 10.9999C2.3638 6.43057 6.06789 2.7264 10.6371 2.7264C11.9511 2.7264 13.1937 3.03277 14.2971 3.57797L15.8736 1.73867C14.3277 0.86266 12.5408 0.362549 10.6371 0.362549C4.7624 0.362549 0 5.12505 0 10.9999C0 16.8748 4.7624 21.6372 10.6371 21.6372ZM18.6069 7.06171C19.0436 6.57651 19.0043 5.82919 18.5191 5.39252C18.0339 4.95586 17.2866 4.99519 16.8499 5.48038L10.2401 12.8248L7.92976 10.4995C7.4697 10.0364 6.72137 10.034 6.25831 10.494C5.79525 10.9541 5.79283 11.7025 6.25288 12.1655L9.44407 15.3776C9.67307 15.608 9.98685 15.7341 10.3117 15.7261C10.6365 15.7181 10.9437 15.5767 11.161 15.3352L18.6069 7.06171Z" fill="#84AE52"/>
-              </svg>Prescriptions and Vaccines	 
+              </svg>Annual Physical  
             </span>
           </div>
         </div>
       </div>
-      <div class="box-2">
+
+      <div class="box-1 d-flex justify-between f-row">
         <div class="box-1__logo">
           <img src="/img/Frame 8.png" alt="logo">
         </div>
-        <div class="box-2__content">
-          <h2>
+        <div class="box-1__content d-flex f-column">
+          <h2 class="text-44 font-frances font-samibold">
             All of your care in one location
           </h2>
-          <div class="box-2-items">
-            <span class="span-2">
+          <div class="box-1-items d-flex f-column">
+            <span class="span-1 d-flex items-center text-24">
               <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6371 21.6372C16.5119 21.6372 21.2742 16.8748 21.2742 10.9999H18.9104C18.9104 15.5692 15.2063 19.2734 10.6371 19.2734C6.06789 19.2734 2.3638 15.5692 2.3638 10.9999C2.3638 6.43057 6.06789 2.7264 10.6371 2.7264C11.9511 2.7264 13.1937 3.03277 14.2971 3.57797L15.8736 1.73867C14.3277 0.86266 12.5408 0.362549 10.6371 0.362549C4.7624 0.362549 0 5.12505 0 10.9999C0 16.8748 4.7624 21.6372 10.6371 21.6372ZM18.6069 7.06171C19.0436 6.57651 19.0043 5.82919 18.5191 5.39252C18.0339 4.95586 17.2866 4.99519 16.8499 5.48038L10.2401 12.8248L7.92976 10.4995C7.4697 10.0364 6.72137 10.034 6.25831 10.494C5.79525 10.9541 5.79283 11.7025 6.25288 12.1655L9.44407 15.3776C9.67307 15.608 9.98685 15.7341 10.3117 15.7261C10.6365 15.7181 10.9437 15.5767 11.161 15.3352L18.6069 7.06171Z" fill="#84AE52"/>
               </svg>Annual Physical  
             </span>
-            <span class="span-2">
+            <span class="span-1 d-flex items-center text-24">
               <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6371 21.6372C16.5119 21.6372 21.2742 16.8748 21.2742 10.9999H18.9104C18.9104 15.5692 15.2063 19.2734 10.6371 19.2734C6.06789 19.2734 2.3638 15.5692 2.3638 10.9999C2.3638 6.43057 6.06789 2.7264 10.6371 2.7264C11.9511 2.7264 13.1937 3.03277 14.2971 3.57797L15.8736 1.73867C14.3277 0.86266 12.5408 0.362549 10.6371 0.362549C4.7624 0.362549 0 5.12505 0 10.9999C0 16.8748 4.7624 21.6372 10.6371 21.6372ZM18.6069 7.06171C19.0436 6.57651 19.0043 5.82919 18.5191 5.39252C18.0339 4.95586 17.2866 4.99519 16.8499 5.48038L10.2401 12.8248L7.92976 10.4995C7.4697 10.0364 6.72137 10.034 6.25831 10.494C5.79525 10.9541 5.79283 11.7025 6.25288 12.1655L9.44407 15.3776C9.67307 15.608 9.98685 15.7341 10.3117 15.7261C10.6365 15.7181 10.9437 15.5767 11.161 15.3352L18.6069 7.06171Z" fill="#84AE52"/>
-              </svg>Sick Care  
-            </span><span class="span-2">
+              </svg>Annual Physical  
+            </span>
+            <span class="span-1 d-flex items-center text-24">
               <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6371 21.6372C16.5119 21.6372 21.2742 16.8748 21.2742 10.9999H18.9104C18.9104 15.5692 15.2063 19.2734 10.6371 19.2734C6.06789 19.2734 2.3638 15.5692 2.3638 10.9999C2.3638 6.43057 6.06789 2.7264 10.6371 2.7264C11.9511 2.7264 13.1937 3.03277 14.2971 3.57797L15.8736 1.73867C14.3277 0.86266 12.5408 0.362549 10.6371 0.362549C4.7624 0.362549 0 5.12505 0 10.9999C0 16.8748 4.7624 21.6372 10.6371 21.6372ZM18.6069 7.06171C19.0436 6.57651 19.0043 5.82919 18.5191 5.39252C18.0339 4.95586 17.2866 4.99519 16.8499 5.48038L10.2401 12.8248L7.92976 10.4995C7.4697 10.0364 6.72137 10.034 6.25831 10.494C5.79525 10.9541 5.79283 11.7025 6.25288 12.1655L9.44407 15.3776C9.67307 15.608 9.98685 15.7341 10.3117 15.7261C10.6365 15.7181 10.9437 15.5767 11.161 15.3352L18.6069 7.06171Z" fill="#84AE52"/>
-              </svg>Prescriptions and Vaccines	 
+              </svg>Annual Physical  
             </span>
           </div>
         </div>
       </div>
-      <div class="box-1">
-       <div class="box-1__logo">
+
+      <div class="box-1 d-flex justify-between">
+        <div class="box-1__logo">
           <img src="/img/Frame 9.png" alt="logo">
         </div>
-        <div class="box-1__content">
-          <h2>
+        <div class="box-1__content d-flex f-column">
+          <h2 class="text-44 font-frances font-samibold">
             Comprehensive care designed for you
           </h2>
-          <div class="box-1-items">
-            <span class="span-1">
-               <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                 <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6371 21.6372C16.5119 21.6372 21.2742 16.8748 21.2742 10.9999H18.9104C18.9104 15.5692 15.2063 19.2734 10.6371 19.2734C6.06789 19.2734 2.3638 15.5692 2.3638 10.9999C2.3638 6.43057 6.06789 2.7264 10.6371 2.7264C11.9511 2.7264 13.1937 3.03277 14.2971 3.57797L15.8736 1.73867C14.3277 0.86266 12.5408 0.362549 10.6371 0.362549C4.7624 0.362549 0 5.12505 0 10.9999C0 16.8748 4.7624 21.6372 10.6371 21.6372ZM18.6069 7.06171C19.0436 6.57651 19.0043 5.82919 18.5191 5.39252C18.0339 4.95586 17.2866 4.99519 16.8499 5.48038L10.2401 12.8248L7.92976 10.4995C7.4697 10.0364 6.72137 10.034 6.25831 10.494C5.79525 10.9541 5.79283 11.7025 6.25288 12.1655L9.44407 15.3776C9.67307 15.608 9.98685 15.7341 10.3117 15.7261C10.6365 15.7181 10.9437 15.5767 11.161 15.3352L18.6069 7.06171Z" fill="#84AE52"/>
-              </svg>Our holistic programs 
-            </span>
-            <span class="span-1">
+          <div class="box-1-items d-flex">
+            <span class="span-1 d-flex items-center text-24">
               <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6371 21.6372C16.5119 21.6372 21.2742 16.8748 21.2742 10.9999H18.9104C18.9104 15.5692 15.2063 19.2734 10.6371 19.2734C6.06789 19.2734 2.3638 15.5692 2.3638 10.9999C2.3638 6.43057 6.06789 2.7264 10.6371 2.7264C11.9511 2.7264 13.1937 3.03277 14.2971 3.57797L15.8736 1.73867C14.3277 0.86266 12.5408 0.362549 10.6371 0.362549C4.7624 0.362549 0 5.12505 0 10.9999C0 16.8748 4.7624 21.6372 10.6371 21.6372ZM18.6069 7.06171C19.0436 6.57651 19.0043 5.82919 18.5191 5.39252C18.0339 4.95586 17.2866 4.99519 16.8499 5.48038L10.2401 12.8248L7.92976 10.4995C7.4697 10.0364 6.72137 10.034 6.25831 10.494C5.79525 10.9541 5.79283 11.7025 6.25288 12.1655L9.44407 15.3776C9.67307 15.608 9.98685 15.7341 10.3117 15.7261C10.6365 15.7181 10.9437 15.5767 11.161 15.3352L18.6069 7.06171Z" fill="#84AE52"/>
-              </svg>A lot of services in one place 
+              </svg>Our holistic programs
+            </span>
+            <span class="span-1 d-flex items-center text-24">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6371 21.6372C16.5119 21.6372 21.2742 16.8748 21.2742 10.9999H18.9104C18.9104 15.5692 15.2063 19.2734 10.6371 19.2734C6.06789 19.2734 2.3638 15.5692 2.3638 10.9999C2.3638 6.43057 6.06789 2.7264 10.6371 2.7264C11.9511 2.7264 13.1937 3.03277 14.2971 3.57797L15.8736 1.73867C14.3277 0.86266 12.5408 0.362549 10.6371 0.362549C4.7624 0.362549 0 5.12505 0 10.9999C0 16.8748 4.7624 21.6372 10.6371 21.6372ZM18.6069 7.06171C19.0436 6.57651 19.0043 5.82919 18.5191 5.39252C18.0339 4.95586 17.2866 4.99519 16.8499 5.48038L10.2401 12.8248L7.92976 10.4995C7.4697 10.0364 6.72137 10.034 6.25831 10.494C5.79525 10.9541 5.79283 11.7025 6.25288 12.1655L9.44407 15.3776C9.67307 15.608 9.98685 15.7341 10.3117 15.7261C10.6365 15.7181 10.9437 15.5767 11.161 15.3352L18.6069 7.06171Z" fill="#84AE52"/>
+              </svg>A lot of services in one place
             </span>
           </div>
         </div>
@@ -138,44 +147,44 @@
 
     <!-- box-4  -->
     <section class="box4-container">
-      <div class="box-4">
-        <div class="box-4__content">
-          <h2>
+      <div class="box-4 d-flex justify-between container">
+        <div class="box-4__content d-flex f-column justify-between">
+          <h2 class="font-frances font-samibold text-44 ">
             A mission to eliminate chronic illness with innovation as the foundation
           </h2>
-          <p>
+          <p class="text-24">
             You focus on your patients, we take care of the rest. Doctors can form deep relationships with members, and provide care that’s preventative, personalized, and engaging.
           </p>
-          <button>
-            <a href="#">Learn more</a> 
+          <button class="button text-20 font-samibold">
+            Learn more 
           </button>
         </div>
         <div class="box-4__img">
-          <img src="/img/Screen Shot 2021-06-26 at 7.41 1.png" alt="logo" width="100%" height="100%" >
+          <img src="/img/photo_2023-03-15_13-33-14.jpg" alt="logo" width="100%" height="100%" >
         </div>
       </div>
     </section>
     <!-- / box-4  -->
 
     <!-- box-5  -->
-    <section class="box-5__container">
-        <h3>Our track record speaks for itself</h3>
-        <div class="box-5__content">
+    <section class="box-5__container container d-flex f-column">
+        <h3 class="text-44 font-samibold font-frances">Our track record speaks for itself</h3>
+        <div class="box-5__content d-flex justify-between">
           <div class="box-5__number">
-            <h2>88</h2>
-            <span>Avg. NPS score</span>        
+            <h2 class="text-80 font-frances">88%</h2>
+            <span class="text-18 font-inter ">Utilization</span>
           </div>
           <div class="box-5__number">
-            <h2>31%</h2>
-            <span>Utilization</span>
+            <h2 class="text-80 font-frances">31%</h2>
+            <span class="text-18 font-inter ">Utilization</span>
           </div>
           <div class="box-5__number">
-            <h2>85%</h2>
-            <span>Quality</span>
+            <h2 class="text-80 font-frances">85%</h2>
+            <span class="text-18 font-inter ">Utilization</span>
           </div>
           <div class="box-5__number">
-            <h2>$2.2k</h2>
-            <span>Cost</span>
+            <h2 class="text-80 font-frances">$2.2k</h2>
+            <span class="text-18 font-inter ">Utilization</span>
           </div>
         </div>
     </section>
@@ -183,84 +192,86 @@
 
     <!-- box-6 -->
     <section class="box-6">
-      <div class="box-6__container">
-        <div class="box-6__content1">
-          <h4>
+      <div class="box-6__container d-flex flex-wrap justify-between">
+        <div class="box-6__content1 d-flex f-column">
+          <h4 class="text-44 font-samibold font-frances ">
             “The staff here is kind and makes me feel comfortable. CMG works with many hospitals, which makes it easy for me to always have access to good care. “
           </h4>
-          <span><a href="#">Luis</a>  Patient at Chaparral</span>
+          <span class="text-18"><a href="#">Luis</a>  Patient at Chaparral</span>
         </div>
         <div class="box-6__content2">
           <img src="/img/Frame 33.png" alt="logo" width="100%" height="100%">
         </div>
-        <div class="box-6__content3">
-          <p>
+        <div class="box-6__content3 d-flex f-column gap-10">
+          <p class="text-24">
             “The staff here is kind and makes me feel comfortable. Oak Street Health works with many hospitals, which makes it easy for me to always have access to good care.”
           </p>
-          <span><a href="#">Luis</a>  Patient at Chaparral</span>
+          <span class="text-18"><a href="#">Luis</a>  Patient at Chaparral</span>
         </div>
-        <div class="box-6__content3">
-          <p>
+        <div class="box-6__content3 d-flex f-column gap-10">
+          <p class="text-24 ">
             “The staff here is kind and makes me feel comfortable. Oak Street Health works with many hospitals, which makes it easy for me to always have access to good care.”
           </p>
-          <span><a href="#">Luis</a>  Patient at Chaparral</span>
+          <span class="text-18"><a href="#">Luis</a>  Patient at Chaparral</span>
         </div>
       </div>
     </section>
     <!-- / box-6 -->
 
     <!-- box-7 -->
-    <section class="box-7__container">
-      <div class="box7-content1">
+    <section class="box-7__container d-f lex justify-between"> 
+      <div class="box7-content1 margin-auto">
         <img src="/img/imgbox7.png" alt="logo" width="100%" height="100%">
       </div>
-      <div class="box7-content2">
-        <h3>Find a doctor</h3>
-        <p>
+      <div class="box7-content2 d-flex f-column margin-auto">
+        <h3 class="text-44 font-frances">Find a doctor</h3>
+        <p class="text-18 ">
           Our doctors focus on keeping you healthy, not just treating you when you’re sick. We call that moving Forward
         <p>
-        <button><a href="#">Find a doctor</a></button>
+        <button class="button text-18">Find a doctor</button>
       </div>
     </section>
     <!-- / box-7 -->
 
     <!-- footer-top -->
     <section class="footer-top">
-      <div class="footer-top__container">
-        <h2>
+      <div class="footer-top__container d-flex f-column container">
+        <h2 class="font-frances font-samibold text-44">
           FAQ
         </h2>
-        <div class="content-box2">
-          <div class="footer-top__dropdown">
-            <h5>Who can become a patient?</h5>
+        <div class="content-box2 d-flex f-column">
+          <div class="footer-top__dropdown d-flex justify-between">
+            <h5 class="font-bold text-18">Who can become a patient?
+            </h5>
             <a href="#">
               <svg width="100%" height="100%" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7071 1.70711C14.0976 1.31658 14.0976 0.683418 13.7071 0.292893C13.3166 -0.097631 12.6834 -0.097631 12.2929 0.292893L7 5.58579L1.70711 0.292893C1.31658 -0.097631 0.683417 -0.097631 0.292893 0.292893C-0.0976311 0.683418 -0.0976311 1.31658 0.292893 1.70711L6.29289 7.70711C6.68342 8.09763 7.31658 8.09763 7.70711 7.70711L13.7071 1.70711Z" fill="black"/>
               </svg>                
             </a>
           </div>
-          <div class="footer-top__dropdown">
-            <h5>Who can become a patient?</h5>
+
+          <div class="footer-top__dropdown d-flex justify-between">
+            <h5 class="font-bold text-18">Who can become a patient?</h5>
             <a href="#">
               <svg width="100%" height="100%" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7071 1.70711C14.0976 1.31658 14.0976 0.683418 13.7071 0.292893C13.3166 -0.097631 12.6834 -0.097631 12.2929 0.292893L7 5.58579L1.70711 0.292893C1.31658 -0.097631 0.683417 -0.097631 0.292893 0.292893C-0.0976311 0.683418 -0.0976311 1.31658 0.292893 1.70711L6.29289 7.70711C6.68342 8.09763 7.31658 8.09763 7.70711 7.70711L13.7071 1.70711Z" fill="black"/>
               </svg>                
             </a>
           </div>
-          <div class="dropdowns">
-            <div>
-              <h5>Can I keep my specialist?</h5>
-              <p>
+          <div class="footer-top__dropdown d-flex justify-between bg-color gap-10">
+            <h5 class="font-bold text-20">Who can become a patient? 
+              <p class="text-18 margin-10">
                 We work with specialists in your insurance network. Our team of referral coordinators can help you navigate these networks to connect you with the best specialist for your needs.
-              </p></div>
+              </p>
+            </h5>
             <a href="#">
-              <svg width="100%" height="9" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 6.29289C-0.097631 6.68342 -0.097631 7.31658 0.292893 7.70711C0.683418 8.09763 1.31658 8.09763 1.70711 7.70711L7 2.41421L12.2929 7.70711C12.6834 8.09763 13.3166 8.09763 13.7071 7.70711C14.0976 7.31658 14.0976 6.68342 13.7071 6.29289L7.70711 0.292893C7.31658 -0.0976311 6.68342 -0.0976311 6.29289 0.292893L0.292893 6.29289Z" fill="black"/>
-              </svg>                              
+              <svg width="100%" height="100%" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7071 1.70711C14.0976 1.31658 14.0976 0.683418 13.7071 0.292893C13.3166 -0.097631 12.6834 -0.097631 12.2929 0.292893L7 5.58579L1.70711 0.292893C1.31658 -0.097631 0.683417 -0.097631 0.292893 0.292893C-0.0976311 0.683418 -0.0976311 1.31658 0.292893 1.70711L6.29289 7.70711C6.68342 8.09763 7.31658 8.09763 7.70711 7.70711L13.7071 1.70711Z" fill="black"/>
+              </svg>                
             </a>
           </div>
-          <div class="footer-top__dropdown">
-            <h5>What if I’m not sure I want to change doctors right now?</h5>
+          <div class="footer-top__dropdown d-flex justify-between">
+            <h5 class="font-bold text-18">Who can become a patient? </h5>
             <a href="#">
               <svg width="100%" height="100%" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7071 1.70711C14.0976 1.31658 14.0976 0.683418 13.7071 0.292893C13.3166 -0.097631 12.6834 -0.097631 12.2929 0.292893L7 5.58579L1.70711 0.292893C1.31658 -0.097631 0.683417 -0.097631 0.292893 0.292893C-0.0976311 0.683418 -0.0976311 1.31658 0.292893 1.70711L6.29289 7.70711C6.68342 8.09763 7.31658 8.09763 7.70711 7.70711L13.7071 1.70711Z" fill="black"/>
@@ -268,29 +279,29 @@
             </a>
           </div>
         </div>
-        <button class="footer-top__button"><a href="#">Show all FAQ’s</a></button>
+        <button class="button text-16">Show all FAQ’s</button>
       </div>
     </section>
     <!-- / footer-top -->
 
     <!-- footer -->
-    <section class="footer-container">
-      <div class="footer-content-1">
+    <section class="footer-container d-flex justify-between">
+      <div class="footer-content-1 d-flex">
         <div class="footer-img">
-          <img src="/img/Group 123 1.svg" alt="logo" width="100%" height="100%"/>          
+          <img src="/img/chaparral.svg" alt="logo" width="100%" height="100%"/>          
         </div>
         <span>All of your care in once place.</span>
         <div class="footer-twitter">
-          <a href="#">
+          <a href="https://twitter.com/home">
             <i class="fa-brands fa-twitter"></i>
           </a>
-          <a href="#">
+          <a href="https://www.facebook.com/">
             <i class="fa-brands fa-facebook-f"></i>
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/">
             <i class="fa-brands fa-instagram"></i>
           </a>
-          <a href="#">
+          <a href="https://www.google.com/">
             <i class="fa-brands fa-google"></i>
           </a>
         </div>
